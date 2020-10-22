@@ -103,12 +103,46 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+a {
+  color: black;
+}
 /*=================================
   Header styling starts here
 =================================*/
 
+nav {
+  background-color: #F1F1F1;
+  /* padding: 20px 0; */
+ 
+}
+nav li a {
+  transition: all .3s ease-in-out;
+}
 
+ul.main-nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  text-align: center;
+  flex-grow: 1;
+}
 
+nav ul li a {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 10px 0;
+  color: black;
+  width: 100%;
+}
+nav ul li a:hover {
+  background-color: black ;
+}
+
+nav ul li a:hover {
+  color: #f1f1f1;
+} 
 
 
 
@@ -120,7 +154,16 @@ li {
   main styling starts here
 =================================*/
 
+.page-heading h1 {
+  font-size: 2.2rem;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
+.page-heading p {
+  margin: 1.5rem 0;
+}
 
 
 
