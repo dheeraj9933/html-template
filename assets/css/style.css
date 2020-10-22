@@ -110,13 +110,13 @@ a {
 
 .heading h2 {
   width: fit-content;
-  margin: 1.5rem auto;
+  margin: 5rem auto;
   font-size: 1.7rem;
   padding: 15px 0;
 }
 
  .heading-underline h2 {
-   border-bottom: 5px solid #ccc;
+   border-bottom: 7px solid #ccc;
 }
 /*=================================
   Header styling starts here
@@ -227,6 +227,10 @@ nav ul li a:hover {
 .pricing-heading {
   text-align: center;
   margin: 3rem 0;
+}
+
+.pricing-heading p {
+  margin-top: -4rem;
 }
 
 .plans {
@@ -358,7 +362,6 @@ nav ul li a:hover {
 .contact-form button:hover {
   background-color: white;
   color: black;
-  box-shadow: 0px 2px 5px #ccc;
 }
 
 /*=================================
@@ -368,7 +371,57 @@ nav ul li a:hover {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer {
 
+  background-color: #f1f1f1;
+  margin-top: 4rem ;
+}
+.footer {
+  padding: 20px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer * {
+  margin: .7rem 0;
+}
+.footer h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.top-button {
+  border: none;
+  background-color: black;
+  padding: 5px 20px;
+  color: white;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  transition: .3s all ease-out;
+}
+
+.top-button:hover {
+  background-color: white;
+  color: black;
+}
+.footer ul li {
+  /* font-size: 1.3rem; */
+}
+footer ul li i{
+  color: #000 ;
+  font-size: 2rem;
+  cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+footer ul li i:hover{
+  border-bottom: 2px solid black;
+}
+footer a {
+  text-decoration: underline;
+}
 
  /*=================================
   footer styling ends here
