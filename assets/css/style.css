@@ -118,7 +118,6 @@ a {
  .heading-underline h2 {
    border-bottom: 5px solid #ccc;
 }
-
 /*=================================
   Header styling starts here
 =================================*/
@@ -185,7 +184,9 @@ nav ul li a:hover {
 }
 
 /* What we offer */
-
+.what-we-offer {
+  margin: 5rem 0;
+}
 .offers {
   display: flex;
   flex-wrap: wrap;
@@ -220,6 +221,9 @@ nav ul li a:hover {
 } 
 
 /* Pricing */
+.pricing-plans {
+  margin: 5rem 0;
+}
 .pricing-heading {
   text-align: center;
   margin: 3rem 0;
@@ -230,7 +234,7 @@ nav ul li a:hover {
   justify-content: space-between;
 }
 .plan {
-  flex-basis: 30%;
+  flex-basis: 32%;
   border: 1px solid #ccc;
 }
 .plan h3 {
@@ -268,12 +272,93 @@ nav ul li a:hover {
   border: none;
   font-size: 1.2rem;
 }
-/* profile */
 
-.profile img {
-  
-  height: 200px;
-  width: auto;
+.plan .button-container button:hover {
+  background-color: #62b465;
+}
+
+/* profiles */
+.who-we-are {
+  margin: 5rem 0;
+}
+.profiles {
+  display: flex;
+  justify-content: space-between;
+}
+.profile {
+  flex-basis: 32%;
+  box-shadow: 0px 2px 15px #ccc;
+}
+.profile-desc {
+ padding: 20px;
+}
+.profile-desc h3 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.profile-desc .title {
+  color: rgb(128, 128, 128);
+  margin: 20px 0;
+
+}
+
+.profile-desc button {
+  /* display: block; */
+  margin: 20px 0;
+  width: 100%;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  transition: .3s all ease-out;
+}
+
+.profile-desc button:hover {
+
+  box-shadow: 0px 2px 5px #ccc;
+}
+.profile img {  
+   height: 200px;
+  /* width: auto;  */
+}
+
+/* Contact us */
+.contact-form  {
+  margin: 4rem 0;
+}
+.contact-form form {
+  display: flex;
+  flex-flow: column;
+}
+.form-container {
+  display: flex;
+  flex-flow: column;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.form-container input[type='text'],
+.form-container input[type='email']
+ {
+  padding: 15px 0;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  transition: all .3s ease-out;
+}
+
+.contact-form button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 2px 5px #ccc;
 }
 
 /*=================================
@@ -283,11 +368,6 @@ nav ul li a:hover {
 /*=================================
   footer styling starts here
 =================================*/ 
-
-
-
-
-
 
 
  /*=================================
