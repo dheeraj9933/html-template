@@ -107,6 +107,18 @@ li {
 a {
   color: black;
 }
+
+.heading h2 {
+  width: fit-content;
+  margin: 1.5rem auto;
+  font-size: 1.7rem;
+  padding: 15px 0;
+}
+
+ .heading-underline h2 {
+   border-bottom: 5px solid #ccc;
+}
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -154,6 +166,7 @@ nav ul li a:hover {
   main styling starts here
 =================================*/
 
+/* Heading */
 .page-heading h1 {
   font-size: 2.2rem;
   margin: 2rem 0;
@@ -165,10 +178,103 @@ nav ul li a:hover {
   margin: 1.5rem 0;
 }
 
+/* carousel */
+.carousel div img {
+  height: 200px;
+  width: auto;
+}
 
+/* What we offer */
 
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.offer {
+  flex-basis: 25%;
+  /* padding: 20px; */
+}
+.offer h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.offer div {
+  margin: 2rem 1.5rem;
+}
+.offer:nth-child(1) {
+  background-color: #F1F1F1;
+} 
 
+.offer:nth-child(2) {
+  background-color: #BBBBBB;
+} 
 
+.offer:nth-child(3) {
+  background-color: #616161;
+  color: white;
+} 
+
+.offer:nth-child(4) {
+  color: white;
+  background-color: #000000;
+} 
+
+/* Pricing */
+.pricing-heading {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+.plan {
+  flex-basis: 30%;
+  border: 1px solid #ccc;
+}
+.plan h3 {
+  font-size: 1.7rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.plan:nth-child(2) h3 {
+  background-color:#616161;
+}
+.plan ul  {
+  display: flex;
+  flex-flow: column;
+  /* align-items: center; */
+}
+
+.plan ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+.plan .button-container {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f1f1f1;
+}
+
+.plan .button-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.2rem;
+}
+/* profile */
+
+.profile img {
+  
+  height: 200px;
+  width: auto;
+}
 
 /*=================================
   main styling ends here
